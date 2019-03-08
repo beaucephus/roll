@@ -1,0 +1,21 @@
+*.pdf
+*~
+*.sw[op]
+*.pyc
+.settings
+.project
+.classpath
+.buildpath
+*.dia
+*.uxf
+.dev/
+.idea/
+coverage/
+#~
+.rbx
+*.class
+.vscode/
+tmp/
+
+# Mac
+.DS_Store
