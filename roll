@@ -10,7 +10,6 @@ def unaccepted_dice_string(string):
 
 def dice_string(string):
     array = string.split("d")
-    valid = True
     if len(array) != 2:
         unaccepted_dice_string(string)
 
@@ -40,5 +39,5 @@ for i in range(num_rolls):
     rolls.append(roll)
     sum += roll
 
-print sum
-print rolls
+print(sum)
+print(rolls)
